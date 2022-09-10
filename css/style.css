@@ -248,21 +248,56 @@ body {
   height: 50px;
 }
 
-.school__item-sun::before {
+.school__item--sun::before {
   content: url(../images/sun-icon.svg);
 }
 
-.school__item-airplane::before {
+.school__item--airplane::before {
   content: url(../images/airplane-icon.svg);
 }
 
-.school__item-wave::before {
+.school__item--wave::before {
   content: url(../images/vawe-icon.svg);
 }
 
 .school__inner {
   display: flex;
   justify-content: space-between;
+}
+
+.school__info {
+  width: 340px;
+  flex: none;
+}
+.school__info-item {
+  position: relative;
+}
+
+.school__info-text {
+  margin-bottom: 10px;
+}
+
+.school__item--returned::before {
+  content: url(../images/wave85-icon.svg);
+  position: absolute;
+}
+
+.school__item--trained::before {
+  content: url(../images/wave95-icon.svg);
+  position: absolute;
+}
+
+.school__item--happy::before {
+  content: url(../images/wave99-icon.svg);
+  position: absolute;
+}
+
+.school__info-num {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
 }
 
 .school__text {
@@ -277,8 +312,8 @@ body {
   background-image: url("../images/peak-bg.jpg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: right center;
-  margin-bottom: 200px;
+  background-position: right top;
+  padding-bottom: 200px;
 }
 
 .peak__inner {
