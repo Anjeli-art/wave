@@ -382,22 +382,14 @@ body {
 }*/
 
 .gallery__top-content {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
+  gap:40px;
 }
 
 .gallery__content-item {
   position: relative;
-  margin: 0 40px 40px 0;
-}
-
-.gallery__content-item:nth-child(3) {
-  margin-right: 0;
-}
-
-.gallery__content-item:nth-child(6) {
-  margin-right: 0;
 }
 
 .gallery__content-item img {
