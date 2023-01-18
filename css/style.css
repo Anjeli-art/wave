@@ -256,7 +256,7 @@ body {
 }
 
 .school__item--wave::before {
-  content: url(../images/vawe-icon.svg);
+  content: url(../images/wave-icon.svg);
 }
 
 .school__inner {
@@ -540,21 +540,6 @@ body {
 .slick-active button {
   background-color: #00b2a0;
 }
-
-/*
-
-
-
-
-
-
-
-
-
-
-
- coi,,,./ 
-*/
 
 .team {
   padding-bottom: 200px;
